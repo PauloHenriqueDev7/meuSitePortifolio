@@ -1,0 +1,239 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    }
+    
+    nav ul li a:hover {
+    background-color: #ddd;
+    }
+    
+    /* Estilo da seção de apresentação */
+    #intro {
+    height: 100vh;
+    background-image: url('https://www.example.com/images/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    }
+    
+    #intro h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    }
+    
+    #intro p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #333;
+    }
+    
+    /* Estilo das seções de habilidades e experiência */
+    #skills,
+    #experience {
+    padding: 50px;
+    }
+    
+    #skills h2,
+    #experience h2 {
+    margin-bottom: 30px;
+    }
+    
+    #skills ul,
+    #experience ul {
+    list-style: none;
+    margin-bottom: 20px;
+    }
+    
+    #skills ul li,
+    #experience ul li {
+    margin-bottom: 10px;
+    }
+    
+    #skills ul li::before,
+    #experience ul li::before {
+    content: "\2022";
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    }
+    
+    #skills ul li span,
+    #experience ul li span {
+    display: inline-block;
+    font-weight: bold;
+    width: 150px;
+    }
+    
+    #skills ul li span {
+    color: #ff6347;
+    }
+    
+    /* Estilo da seção de educação */
+    #education {
+    background-color: #f5f5f5;
+    padding: 50px;
+    }
+    
+    #education h2 {
+    margin-bottom: 30px;
+    }
+    
+    #education ul {
+    list-style: none;
+    margin-bottom: 20px;
+    }
+    
+    #education ul li {
+    margin-bottom: 10px;
+    }
+    
+    #education ul li h3 {
+    margin-bottom: 5px;
+    }
+    
+    #education ul li h4 {
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 5px;
+    }
+    
+    #education ul li p {
+    color: #999;
+    }
+    
+    /* Estilo da seção de contato */
+    #contact {
+    padding: 50px;
+    }
+    
+    #contact h2 {
+    margin-bottom: 30px;
+    }
+    
+    #contact ul {
+    list-style: none;
+    }
+    
+    #contact ul li {
+    margin-bottom: 10px;
+    }
+    
+    #contact ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    }
+    
+    #contact ul li a:hover {
+    background-color: #ddd;
+    }
+    
+    /* Estilo do rodapé */
+    footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    }
+
+
+
+
+    
+    .form-wrapper {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+      }
+      
+      input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
