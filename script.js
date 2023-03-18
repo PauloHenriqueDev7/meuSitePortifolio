@@ -40,3 +40,4 @@ sendButton.addEventListener('click', (event) => {
 			alert('Mensagem enviada com sucesso!');
 		});
 */ 
+
